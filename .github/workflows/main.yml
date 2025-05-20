@@ -21,3 +21,9 @@ jobs:
     steps:
       - name: "Verficacao da versao"
         run: node --version
+      - name: "Define a versao do NodeJS"
+        uses: actions/setup-node@v4
+        with:
+          node-version: 'latest'
+      - name: "Verficacao da versao apos a instalacao"
+        run: node --version
