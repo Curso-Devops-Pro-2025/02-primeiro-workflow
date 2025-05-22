@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: "Minha Primeira accao"
-        run: ech "Hello GitHub Actions!!!"
+        run: echo "Hello GitHub Actions!!!"
       - name: "Segunda Accao"
         run: |
           echo "Voce criou o seu primeiro workflow"
